@@ -1,9 +1,1 @@
-# front end for fun
-
-front end
-
-for fun
-
-front 
-
-end
+# ALX / HOLBERTON FRONTEND FOR FUN

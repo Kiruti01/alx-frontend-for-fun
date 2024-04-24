@@ -4,6 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Homepage - A fake website</title>
+    <style>
+      body {
+        color: #000000;
+        background-color: #ffffff;
+      }
+
+      .btn {
+        border: 1px solid lightgray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 1px;
+        background-color: #ffffff;
+        border-radius: 4px; 
+      }
+    </style>
   </head>
   <body>
     <div class="header">
@@ -134,7 +149,7 @@
               <div><span>Secure Online Transfer</span><span>Unlimited Styles for interface</span><span>Reliable Customer Service</span></div>
             </div>
             <div class="bottom-part">
-                <span>$199.00</span><a href="#">Buy Now</a>
+              <span>$199.00</span><a href="#">Buy Now</a>
             </div>
           </div>
         </div>
@@ -145,7 +160,7 @@
         <div class="row">
           <div class="col-5">
             <div>
-                <span>About Me</span><span>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</span>
+              <span>About Me</span><span>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</span>
             </div>
           </div>
           <div class="col-5">
@@ -154,8 +169,8 @@
               <p>Stay updated with our latest trends</p>
               <form action="#" method="post">
                 <div class="input-group">
-                  <label class="visually-hidden" for="email"></label>
-                  <input class="form-control" type="email" name="email" id="email" autocomplete="email" aria-required="true" required>
+                    <label class="visually-hidden" for="email">Email Address</label>
+                  <input class="form-control" type="email" name="email" id="email" autocomplete="email" required aria-required="true">
                   <div class="input-group-btn"><button class="btn" type="submit">Validate</button></div>
                 </div>
               </form>
@@ -163,9 +178,16 @@
           </div>
           <div class="col-2">
             <div class="footer-widget">
-                <span>Follow Me</span>
+              <span>Follow Me</span>
               <p>Let us be social</p>
-              <div><a href="#" aria-label="Facebook"><i class="facebook-icon"></i></a><a href="#" aria-label="Twitter"><i class="twitter-icon"></i></a></div>
+              <div>
+                <a href="#" class="facebook-icon" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
