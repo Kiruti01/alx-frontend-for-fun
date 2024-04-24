@@ -1,12 +1,11 @@
-/* Nested hover */
+/* Task: Assign text color to button tags and change color on hover */
 
-$button-color: #FF0000;
-$hover-color: #00FF00;
-
+// Assign text color #FF0000 to button tags
 button {
-    color: $button-color;
-    :hover {
-        color: $hover-color;
+    color: #FF0000;
+    
+    // Change text color to #00FF00 on hover
+    &:hover {
+      color: #00FF00;
     }
-}
-  
+  }
